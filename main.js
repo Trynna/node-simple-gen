@@ -11,5 +11,5 @@ const generate = (length, lettersList) => {
 
 let lettersList = 'QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890'
 let length = 20
-generated = generate(length, lettersList)
+let generated = generate(length, lettersList)
 console.log(`Random generated string: ${generated}`)
